@@ -58,7 +58,8 @@ export default function Home() {
               </div>
               <div className={styles.subtitle}>
                 Dr. MOOVES A&D is a motion capture app that works as a tool to
-                improve children's mental and behavioral health by dance moves.
+                improve children&apos;s mental and behavioral health by dance
+                moves.
               </div>
               <div className={styles.btn}>
                 <a href="#" rel="nofollow">
@@ -87,7 +88,7 @@ export default function Home() {
                 Easy and simple! Treat your child from home with a fun dance app
                 and <b>get paid!</b>
               </div>
-              <div className={styles.title}>
+              <div className={styles.title_1}>
                 Download now and start dancing!  
               </div>
             </div>
@@ -135,7 +136,6 @@ export default function Home() {
           </header>
         </div>
       </main>
-
       <footer className={styles.footer}>
         Playing Forward Copyright 2022. All Rights Reserved.
       </footer>
