@@ -1,0 +1,14 @@
+.subtitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+.color_black {
+  color: black;
+}
+.color_white {
+  color: white;
+}
+
+@media (max-width: 1080px) {
+}

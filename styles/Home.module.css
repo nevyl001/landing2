@@ -1,0 +1,138 @@
+.page {
+  background-color: #f4f7fc;
+  min-height: 100vh;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 0;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+  margin: 0 auto;
+  width: 70%;
+  padding: 15px 20px;
+  box-shadow: 0px 10px 50px 0px rgb(100 100 100 / 20%);
+}
+.menu_logo {
+  width: 15%;
+}
+.subsec_1_flex {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.btn a {
+  color: #ffffff;
+  text-transform: Capitalize;
+  text-decoration: none;
+  background: #504867;
+  padding: 20px 40px;
+  display: inline-block;
+  border-radius: 40px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  background-image: linear-gradient(to right, #0023d2, #3666df);
+  transition-duration: 0.2s;
+  font-weight: 700;
+}
+.btn svg {
+  transform: scale(1.2);
+  margin-left: 10px;
+}
+.btn a:hover {
+  background-image: linear-gradient(to right, #011b9f, #1b3e96);
+  transition-duration: 0.2s;
+}
+
+.section_flex {
+  column-gap: 20px;
+  align-items: center;
+  display: flex;
+}
+.section_1 {
+  width: 50%;
+}
+.section_1 .btn {
+  text-align: center;
+}
+
+.section_2 {
+  width: 50%;
+}
+
+.logo {
+  width: 40%;
+  margin: 10px auto;
+}
+.title {
+  color: #000058;
+  font-weight: 600;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+.subtitle {
+  color: #5d5d7e;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 12px;
+  color: #848484;
+}
+.video {
+  background-color: white;
+  padding: 40px;
+  border-radius: 40px;
+  box-shadow: 0px 10px 50px 0px rgb(100 100 100 / 20%);
+}
+.btn {
+  text-align: center;
+}
+.video video {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .section_flex {
+    display: block;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+    padding: 15px 20px;
+    box-shadow: 0px 10px 50px 0px rgb(100 100 100 / 20%);
+  }
+  .container {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+  .section_1 {
+    width: 100%;
+  }
+  .title {
+    color: #000058;
+    font-weight: 600;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px 0;
+  }
+  .section_2 {
+    width: 100%;
+  }
+}

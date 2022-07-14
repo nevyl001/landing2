@@ -1,0 +1,27 @@
+.title {
+  font-family: "Work Sans", sans-serif;
+}
+.size_big {
+  font-size: 45px;
+  font-weight: 800;
+}
+.size_medium {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 800;
+}
+.size_small {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 800;
+}
+
+.color_gray {
+  color: black;
+}
+.color_white {
+  color: white;
+}
+
+@media (max-width: 1080px) {
+}
