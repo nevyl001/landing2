@@ -62,7 +62,10 @@ export default function Home() {
                 moves.
               </div>
               <div className={styles.btn}>
-                <a href="#" rel="nofollow">
+                <a
+                  href="https://apps.apple.com/us/app/dr-mooves-a-d/id1528375544"
+                  rel="nofollow"
+                >
                   <span>
                     DOWNLOAD APP
                     <svg
@@ -103,13 +106,16 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <video width="100%" autoPlay muted>
+                  <video width="100%" autoPlay muted loop>
                     <source src="/img/playfor.mp4" type="video/mp4" />
                     Your browser does not support HTML video.
                   </video>
                 </div>
                 <div className={styles.btn}>
-                  <a href="#" rel="nofollow">
+                  <a
+                    href="https://apps.apple.com/us/app/dr-mooves-a-d/id1528375544"
+                    rel="nofollow"
+                  >
                     <span>
                       DOWNLOAD APP
                       <svg
