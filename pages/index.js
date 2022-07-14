@@ -15,7 +15,10 @@ export default function Home() {
           <Image src="/img/img1.png" alt="Logo" width={352} height={177} />
         </div>
         <div className={styles.btn}>
-          <a href="#" rel="nofollow">
+          <a
+            href="https://apps.apple.com/us/app/dr-mooves-a-d/id1528375544"
+            rel="nofollow"
+          >
             <span>
               DOWNLOAD APP
               <svg
@@ -60,32 +63,6 @@ export default function Home() {
                 Dr. MOOVES A&D is a motion capture app that works as a tool to
                 improve children&apos;s mental and behavioral health by dance
                 moves.
-              </div>
-              <div className={styles.btn}>
-                <a
-                  href="https://apps.apple.com/us/app/dr-mooves-a-d/id1528375544"
-                  rel="nofollow"
-                >
-                  <span>
-                    DOWNLOAD APP
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"
-                      />
-                      <path
-                        fillRule="evenodd"
-                        d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"
-                      />
-                    </svg>
-                  </span>
-                </a>
               </div>
               <div className={styles.subtitle}>
                 Easy and simple! Treat your child from home with a fun dance app
