@@ -49,24 +49,35 @@ export default function Home() {
                 Does your child suffer from symptoms of depression and anxiety? 
               </div>
               <div className={styles.subtitle}>
-                Childhood anxiety and depression is on the rise all over the
-                world.
+                <li>
+                  Childhood anxiety and depression is on the rise all over the
+                  world.
+                </li>
               </div>
               <div className={styles.subtitle}>
-                It’s not easy to provide consistent care for children with A&D.
+                <li>
+                  It’s not easy to provide consistent care for children with
+                  A&D.
+                </li>
               </div>
               <div className={styles.subtitle}>
-                Mental and emotional therapies are long term daily commitments
-                for everyone involved.
+                <li>
+                  Mental and emotional therapies are long term daily commitments
+                  for everyone involved.
+                </li>
               </div>
               <div className={styles.subtitle}>
-                Dr. MOOVES A&D is a motion capture app that works as a tool to
-                improve children&apos;s mental and behavioral health by dance
-                moves.
+                <li>
+                  Dr. MOOVES A&D is a motion capture app that works as a tool to
+                  improve children&apos;s mental and behavioral health by dance
+                  moves.
+                </li>
               </div>
               <div className={styles.subtitle}>
-                Easy and simple! Treat your child from home with a fun dance app
-                and <b>get paid!</b>
+                <li>
+                  Easy and simple! Treat your child from home with a fun dance
+                  app and <b>get paid!</b>
+                </li>
               </div>
               <div className={styles.title_1}>
                 Download now and start dancing!  
